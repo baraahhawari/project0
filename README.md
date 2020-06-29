@@ -12,3 +12,5 @@ Web Programming with Python and JavaScript
 
 1. You'll need to tell Sass which file to build from, and where to output CSS to
    `sass css/input.scss css/output.css`
+1. The watch flag tells Sass to watch your source files for changes, and re-compile CSS each time you save your Sass
+   `sass --watch css/input.scss:css/output.css`

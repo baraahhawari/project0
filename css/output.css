@@ -1,6 +1,6 @@
 body {
   font: 100% Helvetica, sans-serif;
-  color: #333; }
+  color: #60bb6f; }
 
 #header {
   position: fixed;
@@ -25,6 +25,11 @@ nav a {
   text-decoration: none;
   color: white; }
 
+nav a:hover, footer a:hover,
+footer i.fab:hover {
+  text-decoration: none;
+  color: #0b0c0c; }
+
 main div#personal-area {
   background-image: url(../img/personal-bg.jpg);
   background-repeat: no-repeat;
@@ -32,7 +37,7 @@ main div#personal-area {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 800px;
   opacity: 0.8;
   z-index: -1; }
 main div#personal-info {
@@ -50,7 +55,7 @@ main div#personal-info button {
   cursor: pointer;
   display: inline-block;
   color: #fff;
-  padding: 12px 30px;
+  padding: 15px 40px;
   text-transform: uppercase;
   font-size: 14px;
   border-radius: 5px;
@@ -59,16 +64,58 @@ main div#personal-info button {
   border: none; }
 
 #empty {
-  height: 500px; }
-
-footer {
-  display: block; }
+  height: 800px; }
 
 footer div#copyRight {
-  margin: 1%;
-  float: left; }
-footer div#socialMedia {
-  color: red; }
+  float: left;
+  margin: 1% 350px;
+  font-size: 20px;
+  color: #60bb6f;
+  font-weight: bolder;
+  justify-content: center; }
+footer ol li {
+  float: left;
+  padding: 13px; }
+footer i.fab {
+  color: #60bb6f;
+  font-size: 20px;
+  font-weight: bolder; }
+footer a {
+  text-decoration: none;
+  color: #60bb6f; }
+
+main table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+div.personalDetails h3, div#projectsTable h3 {
+  padding: 2%;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder; }
+
+main div#aboutme {
+  clear: both;
+  background-image: url(../img/aboutbaraah.jpg);
+  background-size: cover;
+  height: 400px;
+  margin-top: 5%; }
+main div.personalDetails {
+  margin: 2%; }
+main div#projectsTable {
+  margin: 7%; }
+
+div.personalDetails h3 {
+  color: white; }
+div.personalDetails p.beboInfo {
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px; }
+
+div#projectsTable h3 {
+  color: #60bb6f; }
 
 main div#contact {
   border: 1px solid red;
